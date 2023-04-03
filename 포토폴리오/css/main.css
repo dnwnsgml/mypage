@@ -129,7 +129,7 @@ a {
 }
 
 #profile .profile_header img {
-  width: 70px;
+  width: 60px;
 }
 
 #profile .profile_header p {
@@ -214,7 +214,7 @@ a {
 }
 
 #skill .skill_header img {
-  width: 70px;
+  width: 60px;
 }
 
 #skill .skill_header p {
@@ -226,6 +226,8 @@ a {
 
 #skill .skill_in {
   width: 1200px;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 #skill .skill_img {
@@ -246,83 +248,58 @@ a {
   height: 100vh;
 }
 
+#project .project_header {
+  width: 1200px;
+  height: 200px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+#project .project_header li {
+  float: left;
+}
+
+#project .project_header img {
+  width: 60px;
+}
+
+#project .project_header p {
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5px 0 0 15px;
+}
+
 #project .in_project {
-  width: 1500px;
+  width: 1200px;
   height: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   position: relative;
   top: 200px;
   left: 0;
+  box-sizing: border-box;
 }
 
 #project .project1 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
   border: 1px solid#000;
   border-radius: 30px;
-}
-
-#project .project1_img {
-  margin: 0 auto;
-  width: 300px;
-  height: 300px;
-  margin-top: 50px;
-  background-color: #ccc;
-}
-
-#project .project1 ul {
-  margin: 20px 0 0 50px;
-}
-
-#project .project1 li {
-  line-height: 30px;
 }
 
 #project .project2 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
   border: 1px solid#000;
   border-radius: 30px;
-}
-
-#project .project2_img {
-  margin: 0 auto;
-  width: 300px;
-  height: 300px;
-  margin-top: 50px;
-  background-color: #ccc;
-}
-
-#project .project2 ul {
-  margin: 20px 0 0 50px;
-}
-
-#project .project2 li {
-  line-height: 30px;
 }
 
 #project .project3 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
   border: 1px solid#000;
   border-radius: 30px;
-}
-
-#project .project3_img {
-  margin: 0 auto;
-  width: 300px;
-  height: 300px;
-  margin-top: 50px;
-  background-color: #ccc;
-}
-
-#project .project3 ul {
-  margin: 20px 0 0 50px;
-}
-
-#project .project3 li {
-  line-height: 30px;
 }
 
 /* 마무리 */
@@ -331,27 +308,31 @@ a {
   height: 100vh;
 }
 
-#end .in_end {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 200px;
-  width: 1500px;
-  height: 100vh;
+#end .end_header {
+  width: 1200px;
+  height: 200px;
+  padding-top: 100px;
   box-sizing: border-box;
 }
 
-#end .end_coment {
+#end .end_header li {
   float: left;
-  width: 700px;
-  height: 500px;
-  background-color: slategrey;
 }
 
-#end .mail {
+#end .end_header img {
+  width: 60px;
+}
+
+#end .end_header p {
   float: left;
-  width: 500px;
-  height: 500px;
-  background-color: rgb(135, 183, 222);
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5px 0 0 15px;
+}
+
+#end .in_end {
+  width: 1200px;
+  height: 400px;
 }
 
 /* 퀵메뉴 */
