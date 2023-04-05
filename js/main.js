@@ -3,7 +3,7 @@ $(function () {
   var menu = $(".nav > li");
   var contents = $("#wrap > div");
 
-  $(".nav> li").click(function (event) {
+  $(".nav > li").click(function (event) {
     event.preventDefault();
 
     var tg = $(this);
@@ -14,6 +14,7 @@ $(function () {
 
     $("html, body").stop().animate({ scrollTop: tt });
   });
+
   //메뉴에 addclass를 적용
   // $(window).scroll(function(){
   //     var sct = $(window).scrollTop();
@@ -39,15 +40,13 @@ $(function () {
   // });
 });
 
-
-
 // 퀵메뉴 기능
 $(function () {
-  $(window).scroll(
-      function () {
-          var windowTop = $(window).scrollTop() + 300;
-          $("#q_mn").stop().animate({ top: windowTop + "px" }, 500);
-          //$("#q_mn").stop().animate({속성:"속성값", 속성:"속성값" },1000);	
-      }
-  );
+  $(window).scroll(function () {
+    var windowTop = $(window).scrollTop() + 300;
+    $("#q_mn")
+      .stop()
+      .animate({ top: windowTop + "px" }, 500);
+    //$("#q_mn").stop().animate({속성:"속성값", 속성:"속성값" },1000);
+  });
 });
