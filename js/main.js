@@ -2,6 +2,7 @@
 $(function () {
   var menu = $(".nav > li");
   var contents = $("#wrap > div");
+  var logo = $(".logo");
 
   $(".nav > li").click(function (event) {
     event.preventDefault();
@@ -39,6 +40,11 @@ $(function () {
   //     }
   // });
 });
+
+//스킬 리스트
+$(document).ready(function () {
+
+})
 
 // 퀵메뉴 기능
 $(function () {
