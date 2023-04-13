@@ -18,11 +18,6 @@ a {
   width: 100%;
 }
 
-#wrap > div {
-  width: 100%;
-  height: 100vh;
-}
-
 #wrap > div > div {
   margin: 0 auto;
   width: 1000px;
@@ -30,18 +25,16 @@ a {
 }
 
 body {
-  background-color: rgb(250, 250, 250);
+  background-color: #f1f1f1;
 }
 
 /* 메인 */
 
-#main {
-  background: linear-gradient(100deg, rgb(148, 0, 253), rgb(93, 34, 255));
-}
-
 #main .header {
   position: fixed;
-  width: 1000px;
+  left: 22%;
+  top: 0;
+  width: 1100px;
   height: 100px;
   z-index: 9999;
 }
@@ -55,7 +48,7 @@ body {
 }
 
 #main .logo a {
-  color: #a8a8a8;
+  color: #ccc;
   transition: all 0.5s;
 }
 
@@ -66,7 +59,7 @@ body {
 #main .nav {
   position: fixed;
   top: 40px;
-  left: 900px;
+  left: 970px;
 }
 
 #main .nav li {
@@ -77,7 +70,7 @@ body {
 #main .nav a {
   font-size: 20px;
   font-weight: 600;
-  color: #a8a8a8;
+  color: #ccc;
   transition: all 0.5s;
 }
 
@@ -125,7 +118,17 @@ body {
   margin: 20px 50px 0 0;
   font-size: 16px;
   font-weight: 500;
-  color: #a8a8a8;
+  color: #ccc;
+}
+
+/* line */
+.line {
+  margin: 0 auto;
+  width: 1100px;
+  height: 390vh;
+  border: 1px solid #f1f1f1;
+  border-radius: 35px;
+  background-color: #fff;
 }
 
 /* 소개 */
@@ -143,6 +146,7 @@ body {
 
 #profile .profile_header {
   float: left;
+  padding-left: 100px;
 }
 
 #profile .profile_header li {
@@ -230,6 +234,7 @@ body {
 #skill .skill_header {
   width: 1000px;
   height: 200px;
+  padding-left: 100px;
 }
 
 #skill .skill_header li {
@@ -281,7 +286,7 @@ body {
 #project .project_header {
   width: 1000px;
   height: 200px;
-  padding-top: 100px;
+  padding: 100px 0 0 100px;
   box-sizing: border-box;
 }
 
@@ -303,7 +308,7 @@ body {
 
 #project .project_list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: relative;
   top: 150px;
   left: 0;
@@ -352,18 +357,6 @@ body {
   height: 200px;
 }
 
-#project .project3 {
-  width: 250px;
-  height: 250px;
-  border: 1px solid#ccc;
-  border-radius: 15px;
-  transition: all 0.5s;
-}
-
-#project .project3:hover {
-  box-shadow: 10px 10px 5px 5px #a8a8a8;
-}
-
 /* 마무리 */
 #end {
   width: 100%;
@@ -373,7 +366,7 @@ body {
 #end .end_header {
   width: 1000px;
   height: 200px;
-  padding-top: 150px;
+  padding: 100px 0 0 100px;
   box-sizing: border-box;
 }
 
@@ -396,6 +389,8 @@ body {
 #end .in_end {
   width: 1000px;
   height: 400px;
+  padding-left: 150px;
+  box-sizing: border-box;
 }
 
 #end .end_info {
@@ -403,11 +398,11 @@ body {
   height: 400px;
   border: 1px solid#a8a8a8;
   border-radius: 20px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 #end .end_info ul {
-  padding: 20px 0 0 20px;
+  padding: 30px 0 0 30px;
 }
 
 #end .end_info li {
@@ -427,7 +422,7 @@ body {
 #end .end_comment {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 30px;
   font-weight: bold;
 }
