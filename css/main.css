@@ -354,7 +354,8 @@ body {
 
 .project1 li {
   margin-top: 3%;
-  color: #a8a8a8;
+  color: #c6c6c6;
+  transition: all 0.5s;
 }
 
 #project .project2 {
@@ -393,7 +394,8 @@ body {
 
 .project2 li {
   margin-top: 3%;
-  color: #a8a8a8;
+  color: #c6c6c6;
+  transition: all 0.5s;
 }
 
 #project .project3 {
@@ -432,7 +434,8 @@ body {
 
 .project3 li {
   margin-top: 3%;
-  color: #a8a8a8;
+  color: #c6c6c6;
+  transition: all 0.5s;
 }
 
 #project .project4 {
@@ -471,7 +474,8 @@ body {
 
 .project4 li {
   margin-top: 3%;
-  color: #a8a8a8;
+  color: #c6c6c6;
+  transition: all 0.5s;
 }
 
 /* 마무리 */
