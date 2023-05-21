@@ -19,7 +19,7 @@ a {
   width: 100%;
 }
 
-#wrap>div>div {
+#wrap > div > div {
   margin: 0 auto;
   width: 1000px;
   height: 100vh;
@@ -275,7 +275,13 @@ body {
   align-items: center;
 }
 
-.skill_list li {}
+.skill_list li {
+  font-size: 22px;
+}
+
+.skill_list ul li:last-child {
+  padding-left: 15px;
+}
 
 #skill .skill_list img {
   width: 120px;
@@ -337,6 +343,7 @@ body {
 
 #project .project1:hover {
   box-shadow: 10px 10px 5px 5px #a8a8a8;
+  border-color: #a8a8a8;
 }
 
 #project .project1:hover li {
@@ -349,11 +356,11 @@ body {
 }
 
 .project1 ul {
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 .project1 li {
-  margin-top: 3%;
+  margin-top: 2%;
   color: #c6c6c6;
   transition: all 0.5s;
 }
@@ -371,16 +378,11 @@ body {
 
 #project .project2:hover {
   box-shadow: 10px 10px 5px 5px #a8a8a8;
+  border-color: #a8a8a8;
 }
 
 #project .project2:hover li {
   color: #000;
-}
-
-#project .project2_site a {
-  display: block;
-  width: 350px;
-  height: 200px;
 }
 
 #project .project2 img {
@@ -389,11 +391,11 @@ body {
 }
 
 .project2 ul {
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 .project2 li {
-  margin-top: 3%;
+  margin-top: 2%;
   color: #c6c6c6;
   transition: all 0.5s;
 }
@@ -411,16 +413,11 @@ body {
 
 #project .project3:hover {
   box-shadow: 10px 10px 5px 5px #a8a8a8;
+  border-color: #a8a8a8;
 }
 
 #project .project3:hover li {
   color: #000;
-}
-
-#project .project3_site a {
-  display: block;
-  width: 350px;
-  height: 200px;
 }
 
 #project .project3 img {
@@ -429,11 +426,11 @@ body {
 }
 
 .project3 ul {
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 .project3 li {
-  margin-top: 3%;
+  margin-top: 2%;
   color: #c6c6c6;
   transition: all 0.5s;
 }
@@ -451,6 +448,7 @@ body {
 
 #project .project4:hover {
   box-shadow: 10px 10px 5px 5px #a8a8a8;
+  border-color: #a8a8a8;
 }
 
 #project .project4:hover li {
@@ -469,11 +467,11 @@ body {
 }
 
 .project4 ul {
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 .project4 li {
-  margin-top: 3%;
+  margin-top: 2%;
   color: #c6c6c6;
   transition: all 0.5s;
 }
@@ -559,11 +557,12 @@ body {
 }
 
 #form {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 #form input {
   width: 300px;
+  height: 25px;
   margin-top: 10px;
 }
 
