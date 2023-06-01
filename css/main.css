@@ -541,6 +541,7 @@ body {
 
 #end .end_info a:hover {
   text-decoration: underline;
+  text-underline-position: under;
 }
 
 #end .end_info .send_email {
