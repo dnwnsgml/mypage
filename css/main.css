@@ -167,62 +167,49 @@ body {
 }
 
 #profile .introduce {
+  clear: left;
   padding-top: 150px;
-  box-sizing: border-box;
+  width: 1000px;
+  height: 600px;
 }
 
 #profile .introduce_in {
-  margin: 0 auto;
-  width: 600px;
-  height: 300px;
+  margin-left: 100px;
+  float: left;
+  width: 400px;
+  height: 500px;
+  background-color: #f1f1f1;
+  border-radius: 30px;
 }
 
-#profile .introduce_in h1 {
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 38px;
-  padding-left: 30px;
+#profile .introduce_in ul {
+  padding-top: 100px;
 }
 
-#profile .introduce_in p:nth-child(2) {
-  margin-top: 20px;
-  font-size: 16px;
-  line-height: 25px;
-  padding-left: 30px;
+#profile .introduce_in li {
+  padding: 20px 0 0 30px;
+  font-size: 20px;
 }
 
-#profile .introduce_in p:nth-child(3) {
-  margin-top: 20px;
-  font-size: 16px;
-  line-height: 25px;
-  padding-left: 30px;
+#profile .introduce_in a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 #profile .career {
-  width: 1000px;
-  height: 300px;
+  float: left;
+  width: 500px;
+  height: 500px;
 }
 
-#profile .career_line {
-  width: 800px;
-  margin: 0 auto;
-  margin-top: 50px;
-  border: 1px solid#ccc;
-}
-
-#profile .career_text {
-  margin: 0 auto;
-  width: 600px;
-  height: 300px;
-}
-
-#profile .career_text ul {
-  padding-top: 40px;
+#profile .career ul {
+  padding-top: 120px;
   text-align: center;
 }
 
-#profile .career_text li {
-  margin-top: 30px;
+#profile .career li {
+  padding-top: 30px;
+  font-size: 20px;
 }
 
 /* 스킬 */
@@ -507,7 +494,7 @@ body {
 
 #end .in_end {
   width: 1000px;
-  height: 400px;
+  height: 600px;
   box-sizing: border-box;
 }
 
@@ -541,15 +528,13 @@ body {
 
 #end .end_info a:hover {
   text-decoration: underline;
-  text-underline-position: under;
 }
 
 #end .end_info .send_email {
   float: left;
-  width: 350px;
+  width: 500px;
   height: 450px;
-  margin-left: 30px;
-  margin-top: 50px;
+  margin: 50px 150px 0;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
@@ -568,6 +553,7 @@ body {
 }
 
 #form textarea {
+  margin-top: 10px;
   width: 300px;
 }
 
